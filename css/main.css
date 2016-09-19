@@ -1,0 +1,502 @@
+@charset "utf-8";
+/* CSS Document */
+/* Kept all styles in one document since import another css file will slow down the website */
+
+
+/*==========================================================================
+
+Screen Size Handling - for different devices - Desktop, Mobile, Tablet, etc.
+============================================================================*/
+*{
+	box-sizing:border-box;
+}
+
+.row::after
+{
+	content:"";
+	clear:both;
+	display:block;
+}
+
+/* for laptop */
+[class*="percent-width"]
+{
+    float: left;
+}
+
+.general-0percent-width{width:0%;}
+.general-1percent-width{width:1%;}
+.general-2percent-width{width:2%;}
+.general-3percent-width{width:3%;}
+.general-4percent-width{width:4%;}
+.general-5percent-width{width:5%;}
+.general-6percent-width{width:6%;}
+.general-7percent-width{width:7%;}
+.general-8percent-width{width:8%;}
+.general-9percent-width{width:9%;}
+.general-10percent-width{width:10%;}
+.general-11percent-width{width:11%;}
+.general-12percent-width{width:12%;}
+.general-13percent-width{width:13%;}
+.general-14percent-width{width:14%;}
+.general-15percent-width{width:15%;}
+.general-16percent-width{width:16%;}
+.general-17percent-width{width:17%;}
+.general-18percent-width{width:18%;}
+.general-19percent-width{width:19%;}
+.general-20percent-width{width:20%;}
+.general-21percent-width{width:21%;}
+.general-22percent-width{width:22%;}
+.general-23percent-width{width:23%;}
+.general-24percent-width{width:24%;}
+.general-25percent-width{width:25%;}
+.general-26percent-width{width:26%;}
+.general-27percent-width{width:27%;}
+.general-28percent-width{width:28%;}
+.general-29percent-width{width:29%;}
+.general-30percent-width{width:30%;}
+.general-31percent-width{width:31%;}
+.general-32percent-width{width:32%;}
+.general-33percent-width{width:33%;}
+.general-34percent-width{width:34%;}
+.general-35percent-width{width:35%;}
+.general-36percent-width{width:36%;}
+.general-37percent-width{width:37%;}
+.general-38percent-width{width:38%;}
+.general-39percent-width{width:39%;}
+.general-40percent-width{width:40%;}
+.general-41percent-width{width:41%;}
+.general-42percent-width{width:42%;}
+.general-43percent-width{width:43%;}
+.general-44percent-width{width:44%;}
+.general-45percent-width{width:45%;}
+.general-46percent-width{width:46%;}
+.general-47percent-width{width:47%;}
+.general-48percent-width{width:48%;}
+.general-49percent-width{width:49%;}
+.general-50percent-width{width:50%;}
+.general-51percent-width{width:51%;}
+.general-52percent-width{width:52%;}
+.general-53percent-width{width:53%;}
+.general-54percent-width{width:54%;}
+.general-55percent-width{width:55%;}
+.general-56percent-width{width:56%;}
+.general-57percent-width{width:57%;}
+.general-58percent-width{width:58%;}
+.general-59percent-width{width:59%;}
+.general-60percent-width{width:60%;}
+.general-61percent-width{width:61%;}
+.general-62percent-width{width:62%;}
+.general-63percent-width{width:63%;}
+.general-64percent-width{width:64%;}
+.general-65percent-width{width:65%;}
+.general-66percent-width{width:66%;}
+.general-67percent-width{width:67%;}
+.general-68percent-width{width:68%;}
+.general-69percent-width{width:69%;}
+.general-70percent-width{width:70%;}
+.general-71percent-width{width:71%;}
+.general-72percent-width{width:72%;}
+.general-73percent-width{width:73%;}
+.general-74percent-width{width:74%;}
+.general-75percent-width{width:75%;}
+.general-76percent-width{width:76%;}
+.general-77percent-width{width:77%;}
+.general-78percent-width{width:78%;}
+.general-79percent-width{width:79%;}
+.general-80percent-width{width:80%;}
+.general-81percent-width{width:81%;}
+.general-82percent-width{width:82%;}
+.general-83percent-width{width:83%;}
+.general-84percent-width{width:84%;}
+.general-85percent-width{width:85%;}
+.general-86percent-width{width:86%;}
+.general-87percent-width{width:87%;}
+.general-88percent-width{width:88%;}
+.general-89percent-width{width:89%;}
+.general-90percent-width{width:90%;}
+.general-91percent-width{width:91%;}
+.general-92percent-width{width:92%;}
+.general-93percent-width{width:93%;}
+.general-94percent-width{width:94%;}
+.general-95percent-width{width:95%;}
+.general-96percent-width{width:96%;}
+.general-97percent-width{width:97%;}
+.general-98percent-width{width:98%;}
+.general-99percent-width{width:99%;}
+.general-100percent-width{width:100%;}
+
+
+/* for tablet */
+@media only screen and (min-width:701px) and (max-width:1000px)
+{
+	[class*="percent-width"] {
+	    background-color: yellow;
+	}
+
+	.tablet-0percent-width{width:0%;}
+	.tablet-1percent-width{width:1%;}
+	.tablet-2percent-width{width:2%;}
+	.tablet-3percent-width{width:3%;}
+	.tablet-4percent-width{width:4%;}
+	.tablet-5percent-width{width:5%;}
+	.tablet-6percent-width{width:6%;}
+	.tablet-7percent-width{width:7%;}
+	.tablet-8percent-width{width:8%;}
+	.tablet-9percent-width{width:9%;}
+	.tablet-10percent-width{width:10%;}
+	.tablet-11percent-width{width:11%;}
+	.tablet-12percent-width{width:12%;}
+	.tablet-13percent-width{width:13%;}
+	.tablet-14percent-width{width:14%;}
+	.tablet-15percent-width{width:15%;}
+	.tablet-16percent-width{width:16%;}
+	.tablet-17percent-width{width:17%;}
+	.tablet-18percent-width{width:18%;}
+	.tablet-19percent-width{width:19%;}
+	.tablet-20percent-width{width:20%;}
+	.tablet-21percent-width{width:21%;}
+	.tablet-22percent-width{width:22%;}
+	.tablet-23percent-width{width:23%;}
+	.tablet-24percent-width{width:24%;}
+	.tablet-25percent-width{width:25%;}
+	.tablet-26percent-width{width:26%;}
+	.tablet-27percent-width{width:27%;}
+	.tablet-28percent-width{width:28%;}
+	.tablet-29percent-width{width:29%;}
+	.tablet-30percent-width{width:30%;}
+	.tablet-31percent-width{width:31%;}
+	.tablet-32percent-width{width:32%;}
+	.tablet-33percent-width{width:33%;}
+	.tablet-34percent-width{width:34%;}
+	.tablet-35percent-width{width:35%;}
+	.tablet-36percent-width{width:36%;}
+	.tablet-37percent-width{width:37%;}
+	.tablet-38percent-width{width:38%;}
+	.tablet-39percent-width{width:39%;}
+	.tablet-40percent-width{width:40%;}
+	.tablet-41percent-width{width:41%;}
+	.tablet-42percent-width{width:42%;}
+	.tablet-43percent-width{width:43%;}
+	.tablet-44percent-width{width:44%;}
+	.tablet-45percent-width{width:45%;}
+	.tablet-46percent-width{width:46%;}
+	.tablet-47percent-width{width:47%;}
+	.tablet-48percent-width{width:48%;}
+	.tablet-49percent-width{width:49%;}
+	.tablet-50percent-width{width:50%;}
+	.tablet-51percent-width{width:51%;}
+	.tablet-52percent-width{width:52%;}
+	.tablet-53percent-width{width:53%;}
+	.tablet-54percent-width{width:54%;}
+	.tablet-55percent-width{width:55%;}
+	.tablet-56percent-width{width:56%;}
+	.tablet-57percent-width{width:57%;}
+	.tablet-58percent-width{width:58%;}
+	.tablet-59percent-width{width:59%;}
+	.tablet-60percent-width{width:60%;}
+	.tablet-61percent-width{width:61%;}
+	.tablet-62percent-width{width:62%;}
+	.tablet-63percent-width{width:63%;}
+	.tablet-64percent-width{width:64%;}
+	.tablet-65percent-width{width:65%;}
+	.tablet-66percent-width{width:66%;}
+	.tablet-67percent-width{width:67%;}
+	.tablet-68percent-width{width:68%;}
+	.tablet-69percent-width{width:69%;}
+	.tablet-70percent-width{width:70%;}
+	.tablet-71percent-width{width:71%;}
+	.tablet-72percent-width{width:72%;}
+	.tablet-73percent-width{width:73%;}
+	.tablet-74percent-width{width:74%;}
+	.tablet-75percent-width{width:75%;}
+	.tablet-76percent-width{width:76%;}
+	.tablet-77percent-width{width:77%;}
+	.tablet-78percent-width{width:78%;}
+	.tablet-79percent-width{width:79%;}
+	.tablet-80percent-width{width:80%;}
+	.tablet-81percent-width{width:81%;}
+	.tablet-82percent-width{width:82%;}
+	.tablet-83percent-width{width:83%;}
+	.tablet-84percent-width{width:84%;}
+	.tablet-85percent-width{width:85%;}
+	.tablet-86percent-width{width:86%;}
+	.tablet-87percent-width{width:87%;}
+	.tablet-88percent-width{width:88%;}
+	.tablet-89percent-width{width:89%;}
+	.tablet-90percent-width{width:90%;}
+	.tablet-91percent-width{width:91%;}
+	.tablet-92percent-width{width:92%;}
+	.tablet-93percent-width{width:93%;}
+	.tablet-94percent-width{width:94%;}
+	.tablet-95percent-width{width:95%;}
+	.tablet-96percent-width{width:96%;}
+	.tablet-97percent-width{width:97%;}
+	.tablet-98percent-width{width:98%;}
+	.tablet-99percent-width{width:99%;}
+	.tablet-100percent-width{width:100%;}
+
+}
+
+
+/* for mobile */
+@media only screen and (min-width:10px) and (max-width:700px)
+{
+	[class*="percent-width"] {
+	    background-color: blue;
+	}
+
+	.mobile-0percent-width{width:0%;}
+	.mobile-1percent-width{width:1%;}
+	.mobile-2percent-width{width:2%;}
+	.mobile-3percent-width{width:3%;}
+	.mobile-4percent-width{width:4%;}
+	.mobile-5percent-width{width:5%;}
+	.mobile-6percent-width{width:6%;}
+	.mobile-7percent-width{width:7%;}
+	.mobile-8percent-width{width:8%;}
+	.mobile-9percent-width{width:9%;}
+	.mobile-10percent-width{width:10%;}
+	.mobile-11percent-width{width:11%;}
+	.mobile-12percent-width{width:12%;}
+	.mobile-13percent-width{width:13%;}
+	.mobile-14percent-width{width:14%;}
+	.mobile-15percent-width{width:15%;}
+	.mobile-16percent-width{width:16%;}
+	.mobile-17percent-width{width:17%;}
+	.mobile-18percent-width{width:18%;}
+	.mobile-19percent-width{width:19%;}
+	.mobile-20percent-width{width:20%;}
+	.mobile-21percent-width{width:21%;}
+	.mobile-22percent-width{width:22%;}
+	.mobile-23percent-width{width:23%;}
+	.mobile-24percent-width{width:24%;}
+	.mobile-25percent-width{width:25%;}
+	.mobile-26percent-width{width:26%;}
+	.mobile-27percent-width{width:27%;}
+	.mobile-28percent-width{width:28%;}
+	.mobile-29percent-width{width:29%;}
+	.mobile-30percent-width{width:30%;}
+	.mobile-31percent-width{width:31%;}
+	.mobile-32percent-width{width:32%;}
+	.mobile-33percent-width{width:33%;}
+	.mobile-34percent-width{width:34%;}
+	.mobile-35percent-width{width:35%;}
+	.mobile-36percent-width{width:36%;}
+	.mobile-37percent-width{width:37%;}
+	.mobile-38percent-width{width:38%;}
+	.mobile-39percent-width{width:39%;}
+	.mobile-40percent-width{width:40%;}
+	.mobile-41percent-width{width:41%;}
+	.mobile-42percent-width{width:42%;}
+	.mobile-43percent-width{width:43%;}
+	.mobile-44percent-width{width:44%;}
+	.mobile-45percent-width{width:45%;}
+	.mobile-46percent-width{width:46%;}
+	.mobile-47percent-width{width:47%;}
+	.mobile-48percent-width{width:48%;}
+	.mobile-49percent-width{width:49%;}
+	.mobile-50percent-width{width:50%;}
+	.mobile-51percent-width{width:51%;}
+	.mobile-52percent-width{width:52%;}
+	.mobile-53percent-width{width:53%;}
+	.mobile-54percent-width{width:54%;}
+	.mobile-55percent-width{width:55%;}
+	.mobile-56percent-width{width:56%;}
+	.mobile-57percent-width{width:57%;}
+	.mobile-58percent-width{width:58%;}
+	.mobile-59percent-width{width:59%;}
+	.mobile-60percent-width{width:60%;}
+	.mobile-61percent-width{width:61%;}
+	.mobile-62percent-width{width:62%;}
+	.mobile-63percent-width{width:63%;}
+	.mobile-64percent-width{width:64%;}
+	.mobile-65percent-width{width:65%;}
+	.mobile-66percent-width{width:66%;}
+	.mobile-67percent-width{width:67%;}
+	.mobile-68percent-width{width:68%;}
+	.mobile-69percent-width{width:69%;}
+	.mobile-70percent-width{width:70%;}
+	.mobile-71percent-width{width:71%;}
+	.mobile-72percent-width{width:72%;}
+	.mobile-73percent-width{width:73%;}
+	.mobile-74percent-width{width:74%;}
+	.mobile-75percent-width{width:75%;}
+	.mobile-76percent-width{width:76%;}
+	.mobile-77percent-width{width:77%;}
+	.mobile-78percent-width{width:78%;}
+	.mobile-79percent-width{width:79%;}
+	.mobile-80percent-width{width:80%;}
+	.mobile-81percent-width{width:81%;}
+	.mobile-82percent-width{width:82%;}
+	.mobile-83percent-width{width:83%;}
+	.mobile-84percent-width{width:84%;}
+	.mobile-85percent-width{width:85%;}
+	.mobile-86percent-width{width:86%;}
+	.mobile-87percent-width{width:87%;}
+	.mobile-88percent-width{width:88%;}
+	.mobile-89percent-width{width:89%;}
+	.mobile-90percent-width{width:90%;}
+	.mobile-91percent-width{width:91%;}
+	.mobile-92percent-width{width:92%;}
+	.mobile-93percent-width{width:93%;}
+	.mobile-94percent-width{width:94%;}
+	.mobile-95percent-width{width:95%;}
+	.mobile-96percent-width{width:96%;}
+	.mobile-97percent-width{width:97%;}
+	.mobile-98percent-width{width:98%;}
+	.mobile-99percent-width{width:99%;}
+	.mobile-100percent-width{width:100%;}
+}
+
+
+	
+/*======================================================================================================================================
+
+Header
+======================================================================================================================================*/
+
+body
+{
+	padding:0;
+	margin:0;
+}
+
+.main-header
+{
+	background-color: rgba(0,153,204,1);
+}
+
+.header-height
+{
+	height: 80px;
+}
+
+.logo
+{
+	width: 160px;
+}
+
+.slogan-container
+{
+	position: relative;
+}
+
+.slogan-container .slogan
+{
+	position: absolute;
+	bottom: 10px;
+	left: 0;
+	color: #F0F0F0;
+}
+
+/*======================================================================================================================================
+
+For Main Menu
+
+======================================================================================================================================*/
+
+.main-menu
+{	
+	margin: 0 auto;
+	background-color: #f3f3f3;
+}
+
+.main-menu ul
+{
+	overflow: hidden;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+    vertical-align: top;
+	border: 1px solid #e7e7e7;
+	background-color: #f3f3f3;
+	font-family: sans-serif;
+}
+
+.main-menu ul li
+{
+	float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.main-menu ul li:hover a
+{
+	color: #333;
+	background-color: #d3d3ff;
+}
+
+.main-menu ul li a
+{
+	display: block;
+	padding: 10px 40px;
+	color: #666;
+	background-color: #f3f3f3;
+	text-decoration: none;
+	border-right:1px solid #e7e7e7;
+}
+
+
+
+
+
+/*======================================================================================================================================
+
+For Main Content
+
+======================================================================================================================================*/
+
+.main-content
+{
+	height: 450px;
+}
+
+
+
+/*======================================================================================================================================
+
+For Footer
+
+======================================================================================================================================*/
+
+.main-footer
+{
+	border-top: 1px solid gray;
+	margin: 0px;
+	padding: 0px;
+}
+
+.main-footer ul
+{
+
+}
+
+.main-footer ul li
+{
+	list-style-type:none;
+	display:inline-block;
+}
+
+.footer-menu
+{
+	text-align:center;
+}
+
+.main-footer a
+{
+	text-decoration: none;
+	color: #003;
+	padding:10px 40px;
+}
+
+.main-footer a:hover
+{
+	color: blue;
+}
+
+.copyright
+{
+	text-align:center;
+}
+
