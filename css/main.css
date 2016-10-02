@@ -2,355 +2,11 @@
 /* CSS Document */
 /* Kept all styles in one document since import another css file will slow down the website */
 
-
-/*==========================================================================
-
-Screen Size Handling - for different devices - Desktop, Mobile, Tablet, etc.
-============================================================================*/
 *{
 	box-sizing:border-box;
+	/*border:1px dotted yellow;*/
 }
 
-.row::after
-{
-	content:"";
-	clear:both;
-	display:block;
-}
-
-/* for laptop */
-[class*="percent-width"]
-{
-    float: left;
-}
-
-.general-0percent-width{width:0%;}
-.general-1percent-width{width:1%;}
-.general-2percent-width{width:2%;}
-.general-3percent-width{width:3%;}
-.general-4percent-width{width:4%;}
-.general-5percent-width{width:5%;}
-.general-6percent-width{width:6%;}
-.general-7percent-width{width:7%;}
-.general-8percent-width{width:8%;}
-.general-9percent-width{width:9%;}
-.general-10percent-width{width:10%;}
-.general-11percent-width{width:11%;}
-.general-12percent-width{width:12%;}
-.general-13percent-width{width:13%;}
-.general-14percent-width{width:14%;}
-.general-15percent-width{width:15%;}
-.general-16percent-width{width:16%;}
-.general-17percent-width{width:17%;}
-.general-18percent-width{width:18%;}
-.general-19percent-width{width:19%;}
-.general-20percent-width{width:20%;}
-.general-21percent-width{width:21%;}
-.general-22percent-width{width:22%;}
-.general-23percent-width{width:23%;}
-.general-24percent-width{width:24%;}
-.general-25percent-width{width:25%;}
-.general-26percent-width{width:26%;}
-.general-27percent-width{width:27%;}
-.general-28percent-width{width:28%;}
-.general-29percent-width{width:29%;}
-.general-30percent-width{width:30%;}
-.general-31percent-width{width:31%;}
-.general-32percent-width{width:32%;}
-.general-33percent-width{width:33%;}
-.general-34percent-width{width:34%;}
-.general-35percent-width{width:35%;}
-.general-36percent-width{width:36%;}
-.general-37percent-width{width:37%;}
-.general-38percent-width{width:38%;}
-.general-39percent-width{width:39%;}
-.general-40percent-width{width:40%;}
-.general-41percent-width{width:41%;}
-.general-42percent-width{width:42%;}
-.general-43percent-width{width:43%;}
-.general-44percent-width{width:44%;}
-.general-45percent-width{width:45%;}
-.general-46percent-width{width:46%;}
-.general-47percent-width{width:47%;}
-.general-48percent-width{width:48%;}
-.general-49percent-width{width:49%;}
-.general-50percent-width{width:50%;}
-.general-51percent-width{width:51%;}
-.general-52percent-width{width:52%;}
-.general-53percent-width{width:53%;}
-.general-54percent-width{width:54%;}
-.general-55percent-width{width:55%;}
-.general-56percent-width{width:56%;}
-.general-57percent-width{width:57%;}
-.general-58percent-width{width:58%;}
-.general-59percent-width{width:59%;}
-.general-60percent-width{width:60%;}
-.general-61percent-width{width:61%;}
-.general-62percent-width{width:62%;}
-.general-63percent-width{width:63%;}
-.general-64percent-width{width:64%;}
-.general-65percent-width{width:65%;}
-.general-66percent-width{width:66%;}
-.general-67percent-width{width:67%;}
-.general-68percent-width{width:68%;}
-.general-69percent-width{width:69%;}
-.general-70percent-width{width:70%;}
-.general-71percent-width{width:71%;}
-.general-72percent-width{width:72%;}
-.general-73percent-width{width:73%;}
-.general-74percent-width{width:74%;}
-.general-75percent-width{width:75%;}
-.general-76percent-width{width:76%;}
-.general-77percent-width{width:77%;}
-.general-78percent-width{width:78%;}
-.general-79percent-width{width:79%;}
-.general-80percent-width{width:80%;}
-.general-81percent-width{width:81%;}
-.general-82percent-width{width:82%;}
-.general-83percent-width{width:83%;}
-.general-84percent-width{width:84%;}
-.general-85percent-width{width:85%;}
-.general-86percent-width{width:86%;}
-.general-87percent-width{width:87%;}
-.general-88percent-width{width:88%;}
-.general-89percent-width{width:89%;}
-.general-90percent-width{width:90%;}
-.general-91percent-width{width:91%;}
-.general-92percent-width{width:92%;}
-.general-93percent-width{width:93%;}
-.general-94percent-width{width:94%;}
-.general-95percent-width{width:95%;}
-.general-96percent-width{width:96%;}
-.general-97percent-width{width:97%;}
-.general-98percent-width{width:98%;}
-.general-99percent-width{width:99%;}
-.general-100percent-width{width:100%;}
-
-
-/* for tablet */
-@media only screen and (min-width:701px) and (max-width:1000px)
-{
-	[class*="percent-width"] {
-	    background-color: yellow;
-	}
-
-	.tablet-0percent-width{width:0%;}
-	.tablet-1percent-width{width:1%;}
-	.tablet-2percent-width{width:2%;}
-	.tablet-3percent-width{width:3%;}
-	.tablet-4percent-width{width:4%;}
-	.tablet-5percent-width{width:5%;}
-	.tablet-6percent-width{width:6%;}
-	.tablet-7percent-width{width:7%;}
-	.tablet-8percent-width{width:8%;}
-	.tablet-9percent-width{width:9%;}
-	.tablet-10percent-width{width:10%;}
-	.tablet-11percent-width{width:11%;}
-	.tablet-12percent-width{width:12%;}
-	.tablet-13percent-width{width:13%;}
-	.tablet-14percent-width{width:14%;}
-	.tablet-15percent-width{width:15%;}
-	.tablet-16percent-width{width:16%;}
-	.tablet-17percent-width{width:17%;}
-	.tablet-18percent-width{width:18%;}
-	.tablet-19percent-width{width:19%;}
-	.tablet-20percent-width{width:20%;}
-	.tablet-21percent-width{width:21%;}
-	.tablet-22percent-width{width:22%;}
-	.tablet-23percent-width{width:23%;}
-	.tablet-24percent-width{width:24%;}
-	.tablet-25percent-width{width:25%;}
-	.tablet-26percent-width{width:26%;}
-	.tablet-27percent-width{width:27%;}
-	.tablet-28percent-width{width:28%;}
-	.tablet-29percent-width{width:29%;}
-	.tablet-30percent-width{width:30%;}
-	.tablet-31percent-width{width:31%;}
-	.tablet-32percent-width{width:32%;}
-	.tablet-33percent-width{width:33%;}
-	.tablet-34percent-width{width:34%;}
-	.tablet-35percent-width{width:35%;}
-	.tablet-36percent-width{width:36%;}
-	.tablet-37percent-width{width:37%;}
-	.tablet-38percent-width{width:38%;}
-	.tablet-39percent-width{width:39%;}
-	.tablet-40percent-width{width:40%;}
-	.tablet-41percent-width{width:41%;}
-	.tablet-42percent-width{width:42%;}
-	.tablet-43percent-width{width:43%;}
-	.tablet-44percent-width{width:44%;}
-	.tablet-45percent-width{width:45%;}
-	.tablet-46percent-width{width:46%;}
-	.tablet-47percent-width{width:47%;}
-	.tablet-48percent-width{width:48%;}
-	.tablet-49percent-width{width:49%;}
-	.tablet-50percent-width{width:50%;}
-	.tablet-51percent-width{width:51%;}
-	.tablet-52percent-width{width:52%;}
-	.tablet-53percent-width{width:53%;}
-	.tablet-54percent-width{width:54%;}
-	.tablet-55percent-width{width:55%;}
-	.tablet-56percent-width{width:56%;}
-	.tablet-57percent-width{width:57%;}
-	.tablet-58percent-width{width:58%;}
-	.tablet-59percent-width{width:59%;}
-	.tablet-60percent-width{width:60%;}
-	.tablet-61percent-width{width:61%;}
-	.tablet-62percent-width{width:62%;}
-	.tablet-63percent-width{width:63%;}
-	.tablet-64percent-width{width:64%;}
-	.tablet-65percent-width{width:65%;}
-	.tablet-66percent-width{width:66%;}
-	.tablet-67percent-width{width:67%;}
-	.tablet-68percent-width{width:68%;}
-	.tablet-69percent-width{width:69%;}
-	.tablet-70percent-width{width:70%;}
-	.tablet-71percent-width{width:71%;}
-	.tablet-72percent-width{width:72%;}
-	.tablet-73percent-width{width:73%;}
-	.tablet-74percent-width{width:74%;}
-	.tablet-75percent-width{width:75%;}
-	.tablet-76percent-width{width:76%;}
-	.tablet-77percent-width{width:77%;}
-	.tablet-78percent-width{width:78%;}
-	.tablet-79percent-width{width:79%;}
-	.tablet-80percent-width{width:80%;}
-	.tablet-81percent-width{width:81%;}
-	.tablet-82percent-width{width:82%;}
-	.tablet-83percent-width{width:83%;}
-	.tablet-84percent-width{width:84%;}
-	.tablet-85percent-width{width:85%;}
-	.tablet-86percent-width{width:86%;}
-	.tablet-87percent-width{width:87%;}
-	.tablet-88percent-width{width:88%;}
-	.tablet-89percent-width{width:89%;}
-	.tablet-90percent-width{width:90%;}
-	.tablet-91percent-width{width:91%;}
-	.tablet-92percent-width{width:92%;}
-	.tablet-93percent-width{width:93%;}
-	.tablet-94percent-width{width:94%;}
-	.tablet-95percent-width{width:95%;}
-	.tablet-96percent-width{width:96%;}
-	.tablet-97percent-width{width:97%;}
-	.tablet-98percent-width{width:98%;}
-	.tablet-99percent-width{width:99%;}
-	.tablet-100percent-width{width:100%;}
-
-}
-
-
-/* for mobile */
-@media only screen and (min-width:10px) and (max-width:700px)
-{
-	[class*="percent-width"] {
-	    background-color: blue;
-	}
-
-	.mobile-0percent-width{width:0%;}
-	.mobile-1percent-width{width:1%;}
-	.mobile-2percent-width{width:2%;}
-	.mobile-3percent-width{width:3%;}
-	.mobile-4percent-width{width:4%;}
-	.mobile-5percent-width{width:5%;}
-	.mobile-6percent-width{width:6%;}
-	.mobile-7percent-width{width:7%;}
-	.mobile-8percent-width{width:8%;}
-	.mobile-9percent-width{width:9%;}
-	.mobile-10percent-width{width:10%;}
-	.mobile-11percent-width{width:11%;}
-	.mobile-12percent-width{width:12%;}
-	.mobile-13percent-width{width:13%;}
-	.mobile-14percent-width{width:14%;}
-	.mobile-15percent-width{width:15%;}
-	.mobile-16percent-width{width:16%;}
-	.mobile-17percent-width{width:17%;}
-	.mobile-18percent-width{width:18%;}
-	.mobile-19percent-width{width:19%;}
-	.mobile-20percent-width{width:20%;}
-	.mobile-21percent-width{width:21%;}
-	.mobile-22percent-width{width:22%;}
-	.mobile-23percent-width{width:23%;}
-	.mobile-24percent-width{width:24%;}
-	.mobile-25percent-width{width:25%;}
-	.mobile-26percent-width{width:26%;}
-	.mobile-27percent-width{width:27%;}
-	.mobile-28percent-width{width:28%;}
-	.mobile-29percent-width{width:29%;}
-	.mobile-30percent-width{width:30%;}
-	.mobile-31percent-width{width:31%;}
-	.mobile-32percent-width{width:32%;}
-	.mobile-33percent-width{width:33%;}
-	.mobile-34percent-width{width:34%;}
-	.mobile-35percent-width{width:35%;}
-	.mobile-36percent-width{width:36%;}
-	.mobile-37percent-width{width:37%;}
-	.mobile-38percent-width{width:38%;}
-	.mobile-39percent-width{width:39%;}
-	.mobile-40percent-width{width:40%;}
-	.mobile-41percent-width{width:41%;}
-	.mobile-42percent-width{width:42%;}
-	.mobile-43percent-width{width:43%;}
-	.mobile-44percent-width{width:44%;}
-	.mobile-45percent-width{width:45%;}
-	.mobile-46percent-width{width:46%;}
-	.mobile-47percent-width{width:47%;}
-	.mobile-48percent-width{width:48%;}
-	.mobile-49percent-width{width:49%;}
-	.mobile-50percent-width{width:50%;}
-	.mobile-51percent-width{width:51%;}
-	.mobile-52percent-width{width:52%;}
-	.mobile-53percent-width{width:53%;}
-	.mobile-54percent-width{width:54%;}
-	.mobile-55percent-width{width:55%;}
-	.mobile-56percent-width{width:56%;}
-	.mobile-57percent-width{width:57%;}
-	.mobile-58percent-width{width:58%;}
-	.mobile-59percent-width{width:59%;}
-	.mobile-60percent-width{width:60%;}
-	.mobile-61percent-width{width:61%;}
-	.mobile-62percent-width{width:62%;}
-	.mobile-63percent-width{width:63%;}
-	.mobile-64percent-width{width:64%;}
-	.mobile-65percent-width{width:65%;}
-	.mobile-66percent-width{width:66%;}
-	.mobile-67percent-width{width:67%;}
-	.mobile-68percent-width{width:68%;}
-	.mobile-69percent-width{width:69%;}
-	.mobile-70percent-width{width:70%;}
-	.mobile-71percent-width{width:71%;}
-	.mobile-72percent-width{width:72%;}
-	.mobile-73percent-width{width:73%;}
-	.mobile-74percent-width{width:74%;}
-	.mobile-75percent-width{width:75%;}
-	.mobile-76percent-width{width:76%;}
-	.mobile-77percent-width{width:77%;}
-	.mobile-78percent-width{width:78%;}
-	.mobile-79percent-width{width:79%;}
-	.mobile-80percent-width{width:80%;}
-	.mobile-81percent-width{width:81%;}
-	.mobile-82percent-width{width:82%;}
-	.mobile-83percent-width{width:83%;}
-	.mobile-84percent-width{width:84%;}
-	.mobile-85percent-width{width:85%;}
-	.mobile-86percent-width{width:86%;}
-	.mobile-87percent-width{width:87%;}
-	.mobile-88percent-width{width:88%;}
-	.mobile-89percent-width{width:89%;}
-	.mobile-90percent-width{width:90%;}
-	.mobile-91percent-width{width:91%;}
-	.mobile-92percent-width{width:92%;}
-	.mobile-93percent-width{width:93%;}
-	.mobile-94percent-width{width:94%;}
-	.mobile-95percent-width{width:95%;}
-	.mobile-96percent-width{width:96%;}
-	.mobile-97percent-width{width:97%;}
-	.mobile-98percent-width{width:98%;}
-	.mobile-99percent-width{width:99%;}
-	.mobile-100percent-width{width:100%;}
-}
-
-
-	
 /*======================================================================================================================================
 
 Header
@@ -390,6 +46,30 @@ body
 	color: #F0F0F0;
 }
 
+.login-icon, .search-icon
+{
+	margin-top: 20px;
+	height: 25px;
+	width: 25px;
+	display: block;
+}
+
+.login-icon-holder a,.search-icon-holder a
+{
+	text-decoration: none;
+}
+
+.login-icon-holder:hover img, .search-icon-holder:hover img
+{
+	height: 30px;
+	width: 30px;
+}
+
+.login-icon-holder:hover a, .search-icon-holder:hover a
+{
+	color: #D9D9D9;
+}
+
 /*======================================================================================================================================
 
 For Main Menu
@@ -409,7 +89,6 @@ For Main Menu
 	margin: 0;
 	padding: 0;
     vertical-align: top;
-	border: 1px solid #e7e7e7;
 	background-color: #f3f3f3;
 	font-family: sans-serif;
 }
@@ -419,12 +98,6 @@ For Main Menu
 	float: left;
     margin: 0;
     padding: 0;
-}
-
-.main-menu ul li:hover a
-{
-	color: #333;
-	background-color: #d3d3ff;
 }
 
 .main-menu ul li a
@@ -437,9 +110,17 @@ For Main Menu
 	border-right:1px solid #e7e7e7;
 }
 
+.main-menu ul li a.active
+{
+	color: #fff;
+	background-color: #0169B1;
+}
 
-
-
+.main-menu ul li:hover a:not(.active) 
+{
+    color: #fff;	
+	background-color: #00435B;
+}
 
 /*======================================================================================================================================
 
@@ -450,6 +131,21 @@ For Main Content
 .main-content
 {
 	height: 450px;
+	background-color: #030019
+}
+
+.main-section-image-container
+{
+	height: 400px;
+	overflow: hidden;	
+	text-align: center;
+}
+
+.main-section-image
+{
+	margin: 40px 0px;
+	height: 320px;
+	width: 900px;
 }
 
 
@@ -465,6 +161,7 @@ For Footer
 	border-top: 1px solid gray;
 	margin: 0px;
 	padding: 0px;
+	background-color: #EDEDEC;
 }
 
 .main-footer ul
@@ -500,3 +197,363 @@ For Footer
 	text-align:center;
 }
 
+
+/*==========================================================================
+
+Screen Size Handling - for different devices - Desktop, Mobile, Tablet, etc.
+============================================================================*/
+
+.row::after
+{
+	content:"";
+	clear:both;
+	display:block;
+}
+
+/* for laptop */
+[class*="prcnt"]
+{
+    float: left;
+}
+
+.gen-w-0prcnt{width:0%;}
+.gen-w-1prcnt{width:1%;}
+.gen-w-2prcnt{width:2%;}
+.gen-w-3prcnt{width:3%;}
+.gen-w-4prcnt{width:4%;}
+.gen-w-5prcnt{width:5%;}
+.gen-w-6prcnt{width:6%;}
+.gen-w-7prcnt{width:7%;}
+.gen-w-8prcnt{width:8%;}
+.gen-w-9prcnt{width:9%;}
+.gen-w-10prcnt{width:10%;}
+.gen-w-11prcnt{width:11%;}
+.gen-w-12prcnt{width:12%;}
+.gen-w-13prcnt{width:13%;}
+.gen-w-14prcnt{width:14%;}
+.gen-w-15prcnt{width:15%;}
+.gen-w-16prcnt{width:16%;}
+.gen-w-17prcnt{width:17%;}
+.gen-w-18prcnt{width:18%;}
+.gen-w-19prcnt{width:19%;}
+.gen-w-20prcnt{width:20%;}
+.gen-w-21prcnt{width:21%;}
+.gen-w-22prcnt{width:22%;}
+.gen-w-23prcnt{width:23%;}
+.gen-w-24prcnt{width:24%;}
+.gen-w-25prcnt{width:25%;}
+.gen-w-26prcnt{width:26%;}
+.gen-w-27prcnt{width:27%;}
+.gen-w-28prcnt{width:28%;}
+.gen-w-29prcnt{width:29%;}
+.gen-w-30prcnt{width:30%;}
+.gen-w-31prcnt{width:31%;}
+.gen-w-32prcnt{width:32%;}
+.gen-w-33prcnt{width:33%;}
+.gen-w-34prcnt{width:34%;}
+.gen-w-35prcnt{width:35%;}
+.gen-w-36prcnt{width:36%;}
+.gen-w-37prcnt{width:37%;}
+.gen-w-38prcnt{width:38%;}
+.gen-w-39prcnt{width:39%;}
+.gen-w-40prcnt{width:40%;}
+.gen-w-41prcnt{width:41%;}
+.gen-w-42prcnt{width:42%;}
+.gen-w-43prcnt{width:43%;}
+.gen-w-44prcnt{width:44%;}
+.gen-w-45prcnt{width:45%;}
+.gen-w-46prcnt{width:46%;}
+.gen-w-47prcnt{width:47%;}
+.gen-w-48prcnt{width:48%;}
+.gen-w-49prcnt{width:49%;}
+.gen-w-50prcnt{width:50%;}
+.gen-w-51prcnt{width:51%;}
+.gen-w-52prcnt{width:52%;}
+.gen-w-53prcnt{width:53%;}
+.gen-w-54prcnt{width:54%;}
+.gen-w-55prcnt{width:55%;}
+.gen-w-56prcnt{width:56%;}
+.gen-w-57prcnt{width:57%;}
+.gen-w-58prcnt{width:58%;}
+.gen-w-59prcnt{width:59%;}
+.gen-w-60prcnt{width:60%;}
+.gen-w-61prcnt{width:61%;}
+.gen-w-62prcnt{width:62%;}
+.gen-w-63prcnt{width:63%;}
+.gen-w-64prcnt{width:64%;}
+.gen-w-65prcnt{width:65%;}
+.gen-w-66prcnt{width:66%;}
+.gen-w-67prcnt{width:67%;}
+.gen-w-68prcnt{width:68%;}
+.gen-w-69prcnt{width:69%;}
+.gen-w-70prcnt{width:70%;}
+.gen-w-71prcnt{width:71%;}
+.gen-w-72prcnt{width:72%;}
+.gen-w-73prcnt{width:73%;}
+.gen-w-74prcnt{width:74%;}
+.gen-w-75prcnt{width:75%;}
+.gen-w-76prcnt{width:76%;}
+.gen-w-77prcnt{width:77%;}
+.gen-w-78prcnt{width:78%;}
+.gen-w-79prcnt{width:79%;}
+.gen-w-80prcnt{width:80%;}
+.gen-w-81prcnt{width:81%;}
+.gen-w-82prcnt{width:82%;}
+.gen-w-83prcnt{width:83%;}
+.gen-w-84prcnt{width:84%;}
+.gen-w-85prcnt{width:85%;}
+.gen-w-86prcnt{width:86%;}
+.gen-w-87prcnt{width:87%;}
+.gen-w-88prcnt{width:88%;}
+.gen-w-89prcnt{width:89%;}
+.gen-w-90prcnt{width:90%;}
+.gen-w-91prcnt{width:91%;}
+.gen-w-92prcnt{width:92%;}
+.gen-w-93prcnt{width:93%;}
+.gen-w-94prcnt{width:94%;}
+.gen-w-95prcnt{width:95%;}
+.gen-w-96prcnt{width:96%;}
+.gen-w-97prcnt{width:97%;}
+.gen-w-98prcnt{width:98%;}
+.gen-w-99prcnt{width:99%;}
+.gen-w-100prcnt{width:100%;}
+
+
+/* for tablet */
+@media only screen and (min-width:601px) and (max-width:1000px)
+{
+	[class*="prcnt"] {
+	    /*background-color: yellow;*/
+	}
+
+	.tab-w-0prcnt{width:0%;}
+	.tab-w-1prcnt{width:1%;}
+	.tab-w-2prcnt{width:2%;}
+	.tab-w-3prcnt{width:3%;}
+	.tab-w-4prcnt{width:4%;}
+	.tab-w-5prcnt{width:5%;}
+	.tab-w-6prcnt{width:6%;}
+	.tab-w-7prcnt{width:7%;}
+	.tab-w-8prcnt{width:8%;}
+	.tab-w-9prcnt{width:9%;}
+	.tab-w-10prcnt{width:10%;}
+	.tab-w-11prcnt{width:11%;}
+	.tab-w-12prcnt{width:12%;}
+	.tab-w-13prcnt{width:13%;}
+	.tab-w-14prcnt{width:14%;}
+	.tab-w-15prcnt{width:15%;}
+	.tab-w-16prcnt{width:16%;}
+	.tab-w-17prcnt{width:17%;}
+	.tab-w-18prcnt{width:18%;}
+	.tab-w-19prcnt{width:19%;}
+	.tab-w-20prcnt{width:20%;}
+	.tab-w-21prcnt{width:21%;}
+	.tab-w-22prcnt{width:22%;}
+	.tab-w-23prcnt{width:23%;}
+	.tab-w-24prcnt{width:24%;}
+	.tab-w-25prcnt{width:25%;}
+	.tab-w-26prcnt{width:26%;}
+	.tab-w-27prcnt{width:27%;}
+	.tab-w-28prcnt{width:28%;}
+	.tab-w-29prcnt{width:29%;}
+	.tab-w-30prcnt{width:30%;}
+	.tab-w-31prcnt{width:31%;}
+	.tab-w-32prcnt{width:32%;}
+	.tab-w-33prcnt{width:33%;}
+	.tab-w-34prcnt{width:34%;}
+	.tab-w-35prcnt{width:35%;}
+	.tab-w-36prcnt{width:36%;}
+	.tab-w-37prcnt{width:37%;}
+	.tab-w-38prcnt{width:38%;}
+	.tab-w-39prcnt{width:39%;}
+	.tab-w-40prcnt{width:40%;}
+	.tab-w-41prcnt{width:41%;}
+	.tab-w-42prcnt{width:42%;}
+	.tab-w-43prcnt{width:43%;}
+	.tab-w-44prcnt{width:44%;}
+	.tab-w-45prcnt{width:45%;}
+	.tab-w-46prcnt{width:46%;}
+	.tab-w-47prcnt{width:47%;}
+	.tab-w-48prcnt{width:48%;}
+	.tab-w-49prcnt{width:49%;}
+	.tab-w-50prcnt{width:50%;}
+	.tab-w-51prcnt{width:51%;}
+	.tab-w-52prcnt{width:52%;}
+	.tab-w-53prcnt{width:53%;}
+	.tab-w-54prcnt{width:54%;}
+	.tab-w-55prcnt{width:55%;}
+	.tab-w-56prcnt{width:56%;}
+	.tab-w-57prcnt{width:57%;}
+	.tab-w-58prcnt{width:58%;}
+	.tab-w-59prcnt{width:59%;}
+	.tab-w-60prcnt{width:60%;}
+	.tab-w-61prcnt{width:61%;}
+	.tab-w-62prcnt{width:62%;}
+	.tab-w-63prcnt{width:63%;}
+	.tab-w-64prcnt{width:64%;}
+	.tab-w-65prcnt{width:65%;}
+	.tab-w-66prcnt{width:66%;}
+	.tab-w-67prcnt{width:67%;}
+	.tab-w-68prcnt{width:68%;}
+	.tab-w-69prcnt{width:69%;}
+	.tab-w-70prcnt{width:70%;}
+	.tab-w-71prcnt{width:71%;}
+	.tab-w-72prcnt{width:72%;}
+	.tab-w-73prcnt{width:73%;}
+	.tab-w-74prcnt{width:74%;}
+	.tab-w-75prcnt{width:75%;}
+	.tab-w-76prcnt{width:76%;}
+	.tab-w-77prcnt{width:77%;}
+	.tab-w-78prcnt{width:78%;}
+	.tab-w-79prcnt{width:79%;}
+	.tab-w-80prcnt{width:80%;}
+	.tab-w-81prcnt{width:81%;}
+	.tab-w-82prcnt{width:82%;}
+	.tab-w-83prcnt{width:83%;}
+	.tab-w-84prcnt{width:84%;}
+	.tab-w-85prcnt{width:85%;}
+	.tab-w-86prcnt{width:86%;}
+	.tab-w-87prcnt{width:87%;}
+	.tab-w-88prcnt{width:88%;}
+	.tab-w-89prcnt{width:89%;}
+	.tab-w-90prcnt{width:90%;}
+	.tab-w-91prcnt{width:91%;}
+	.tab-w-92prcnt{width:92%;}
+	.tab-w-93prcnt{width:93%;}
+	.tab-w-94prcnt{width:94%;}
+	.tab-w-95prcnt{width:95%;}
+	.tab-w-96prcnt{width:96%;}
+	.tab-w-97prcnt{width:97%;}
+	.tab-w-98prcnt{width:98%;}
+	.tab-w-99prcnt{width:99%;}
+	.tab-w-100prcnt{width:100%;}
+
+}
+
+
+/* for mobile */
+@media only screen and (min-width:10px) and (max-width:600px)
+{
+	[class*="prcnt"] {
+	   /* background-color: blue;*/
+	}
+
+	.slogan-container
+	{
+		position: static;
+	}
+
+	.slogan-container .slogan
+	{
+		position: static;
+		color: #F0F0F0;
+	}
+
+	.header-m-height
+	{
+		position: static;
+		height: auto;
+	}
+
+	.mob-w-0prcnt{width:0%;}
+	.mob-w-1prcnt{width:1%;}
+	.mob-w-2prcnt{width:2%;}
+	.mob-w-3prcnt{width:3%;}
+	.mob-w-4prcnt{width:4%;}
+	.mob-w-5prcnt{width:5%;}
+	.mob-w-6prcnt{width:6%;}
+	.mob-w-7prcnt{width:7%;}
+	.mob-w-8prcnt{width:8%;}
+	.mob-w-9prcnt{width:9%;}
+	.mob-w-10prcnt{width:10%;}
+	.mob-w-11prcnt{width:11%;}
+	.mob-w-12prcnt{width:12%;}
+	.mob-w-13prcnt{width:13%;}
+	.mob-w-14prcnt{width:14%;}
+	.mob-w-15prcnt{width:15%;}
+	.mob-w-16prcnt{width:16%;}
+	.mob-w-17prcnt{width:17%;}
+	.mob-w-18prcnt{width:18%;}
+	.mob-w-19prcnt{width:19%;}
+	.mob-w-20prcnt{width:20%;}
+	.mob-w-21prcnt{width:21%;}
+	.mob-w-22prcnt{width:22%;}
+	.mob-w-23prcnt{width:23%;}
+	.mob-w-24prcnt{width:24%;}
+	.mob-w-25prcnt{width:25%;}
+	.mob-w-26prcnt{width:26%;}
+	.mob-w-27prcnt{width:27%;}
+	.mob-w-28prcnt{width:28%;}
+	.mob-w-29prcnt{width:29%;}
+	.mob-w-30prcnt{width:30%;}
+	.mob-w-31prcnt{width:31%;}
+	.mob-w-32prcnt{width:32%;}
+	.mob-w-33prcnt{width:33%;}
+	.mob-w-34prcnt{width:34%;}
+	.mob-w-35prcnt{width:35%;}
+	.mob-w-36prcnt{width:36%;}
+	.mob-w-37prcnt{width:37%;}
+	.mob-w-38prcnt{width:38%;}
+	.mob-w-39prcnt{width:39%;}
+	.mob-w-40prcnt{width:40%;}
+	.mob-w-41prcnt{width:41%;}
+	.mob-w-42prcnt{width:42%;}
+	.mob-w-43prcnt{width:43%;}
+	.mob-w-44prcnt{width:44%;}
+	.mob-w-45prcnt{width:45%;}
+	.mob-w-46prcnt{width:46%;}
+	.mob-w-47prcnt{width:47%;}
+	.mob-w-48prcnt{width:48%;}
+	.mob-w-49prcnt{width:49%;}
+	.mob-w-50prcnt{width:50%;}
+	.mob-w-51prcnt{width:51%;}
+	.mob-w-52prcnt{width:52%;}
+	.mob-w-53prcnt{width:53%;}
+	.mob-w-54prcnt{width:54%;}
+	.mob-w-55prcnt{width:55%;}
+	.mob-w-56prcnt{width:56%;}
+	.mob-w-57prcnt{width:57%;}
+	.mob-w-58prcnt{width:58%;}
+	.mob-w-59prcnt{width:59%;}
+	.mob-w-60prcnt{width:60%;}
+	.mob-w-61prcnt{width:61%;}
+	.mob-w-62prcnt{width:62%;}
+	.mob-w-63prcnt{width:63%;}
+	.mob-w-64prcnt{width:64%;}
+	.mob-w-65prcnt{width:65%;}
+	.mob-w-66prcnt{width:66%;}
+	.mob-w-67prcnt{width:67%;}
+	.mob-w-68prcnt{width:68%;}
+	.mob-w-69prcnt{width:69%;}
+	.mob-w-70prcnt{width:70%;}
+	.mob-w-71prcnt{width:71%;}
+	.mob-w-72prcnt{width:72%;}
+	.mob-w-73prcnt{width:73%;}
+	.mob-w-74prcnt{width:74%;}
+	.mob-w-75prcnt{width:75%;}
+	.mob-w-76prcnt{width:76%;}
+	.mob-w-77prcnt{width:77%;}
+	.mob-w-78prcnt{width:78%;}
+	.mob-w-79prcnt{width:79%;}
+	.mob-w-80prcnt{width:80%;}
+	.mob-w-81prcnt{width:81%;}
+	.mob-w-82prcnt{width:82%;}
+	.mob-w-83prcnt{width:83%;}
+	.mob-w-84prcnt{width:84%;}
+	.mob-w-85prcnt{width:85%;}
+	.mob-w-86prcnt{width:86%;}
+	.mob-w-87prcnt{width:87%;}
+	.mob-w-88prcnt{width:88%;}
+	.mob-w-89prcnt{width:89%;}
+	.mob-w-90prcnt{width:90%;}
+	.mob-w-91prcnt{width:91%;}
+	.mob-w-92prcnt{width:92%;}
+	.mob-w-93prcnt{width:93%;}
+	.mob-w-94prcnt{width:94%;}
+	.mob-w-95prcnt{width:95%;}
+	.mob-w-96prcnt{width:96%;}
+	.mob-w-97prcnt{width:97%;}
+	.mob-w-98prcnt{width:98%;}
+	.mob-w-99prcnt{width:99%;}
+	.mob-w-100prcnt{width:100%;}
+}

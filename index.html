@@ -2,52 +2,63 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device, initial-scale=1.0">
   <title>ElangoTechnologies</title>
   <link href="css/main.css" type="text/css" rel="stylesheet"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script>
+  $(document).ready(function() {
+    $(".main-menu ul li a").on("click", function() {
+        $(".main-menu ul li a").removeClass("active");
+        $(this).addClass("active");
+    });
+  });
+  </script>
 </head>
 
 <body>
 
   <header class="main-header">
   	<div class="row">
-      <div class="general-1percent-width tablet-0percent-width mobile-0percent-width">&nbsp;</div>
-    	<div class="general-20percent-width tablet-40percent-width mobile-100percent-width">
+      <div class="gen-w-1prcnt tab-w-0prcnt mob-w-1prcnt">&nbsp;</div>
+    	<div class="gen-w-20prcnt tab-w-28prcnt mob-w-99prcnt">
 				<img class="logo header-height" src="images/ela_logo_white_shadow.png" alt="elango technologies company logo"/>   
       </div>
-      <div class="slogan-container header-height general-79percent-width tablet-100percent-width mobile-100percent-width">
-        <div class="slogan">DIGITIZING THE PLANET, REDEFINING THE DREAMS</div>
+      <div class="slogan-container header-height header-m-height gen-w-64prcnt tab-w-54prcnt mob-w-100prcnt">
+        <marquee class="slogan" behavior="alternate" scrollamount="1" hspace="10">DIGITIZING THE PLANET, REDEFINING THE DREAMS</marquee>
+      </div>
+      <div class="gen-w-5prcnt tab-w-0prcnt mob-w-5prcnt">&nbsp;</div>
+      <div class="login-icon-holder header-height gen-w-5prcnt tab-w-9prcnt mob-w-46prcnt">
+        <img class="login-icon" src="images/login_icon.png" alt="Login Icon"/> 
+        <a href="">Login</a>
+      </div>
+      <div class="search-icon-holder header-height gen-w-5prcnt tab-w-9prcnt mob-w-48prcnt">
+        <img class="search-icon" src="images/search_icon.png" alt="Search Icon"/> 
+        <a href="">Search</a>
+      </div>
       </div>
     </div>
   </header>
   
   <nav class="row main-menu">
-  <div class="general-20percent-width tablet-10percent-width mobile-0percent-width">&nbsp;</div>
-  <div class="general-60percent-width tablet-80percent-width mobile-100percent-width">
+  <div class="gen-w-20prcnt tab-w-0prcnt mob-w-0prcnt">&nbsp;</div>
+  <div class="gen-w-60prcnt tab-w-100prcnt mob-w-100prcnt">
   <ul>
-  	<li class="general-20percent-width"><a href="#">Company</a></li>
-    <li class="general-20percent-width"><a href="#">Products</a></li>
-    <li class="general-20percent-width"><a href="#">Services</a></li>
-    <li class="general-20percent-width"><a href="#">Blog</a></li>
-    <li class="general-20percent-width"><a href="#">Contact</a></li>
+  	<li class="gen-w-20prcnt tab-w-20prcnt mob-w-100prcnt"><a href="#" class="active">Home</a></li>
+  	<li class="gen-w-20prcnt tab-w-20prcnt mob-w-100prcnt"><a href="#">Company</a></li>
+    <li class="gen-w-20prcnt tab-w-20prcnt mob-w-100prcnt"><a href="#">Products</a></li>
+    <li class="gen-w-20prcnt tab-w-20prcnt mob-w-100prcnt"><a href="#">Services</a></li>    
+    <li class="gen-w-20prcnt tab-w-20prcnt mob-w-100prcnt"><a href="#">Contact</a></li>
   </ul>
   </div>
-  <div class="general-20percent-width tablet-10percent-width mobile-0percent-width">&nbsp;</div>
+  <div class="gen-w-20prcnt tab-w-0prcnt mob-w-0prcnt">&nbsp;</div>
   </nav>
 
     
   <section class="main-content">
   
-  	<div class="colsize-medium-3 colsize-large-1">
-      <header id="section-header">
-      <h3> What We Do?</h3>
-      </header>
-      <article> 
-      Innovation
-      </article>
-      <footer id="section-footer">
-      ...
-      </footer>
+  	<div class="gen-w-100prcnt main-section-image-container">
+    	<img class="main-section-image" src="images/digital1.jpg" alt="Digital Image"/> 
     </div>
     
   </section>
