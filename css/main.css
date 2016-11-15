@@ -1,10 +1,16 @@
 @charset "utf-8";
 /* CSS Document */
-/* Kept all styles in one document since import another css file will slow down the website */
 
 *{
 	box-sizing:border-box;
 	/*border:1px dotted yellow;*/
+}
+
+.row::after
+{
+	content:"";
+	clear:both;
+	display:block;
 }
 
 /*======================================================================================================================================
@@ -18,56 +24,46 @@ body
 	margin:0;
 }
 
-.main-header
+#main-header
 {
 	background-color: rgba(0,153,204,1);
+	height: 100px;
+	width: 100%;
+	
 }
 
-.header-height
+#company-logo-container
 {
-	height: 80px;
+	width: 15%;
+	height: 100%;
+	border: 1px solid blue;
+	float: left;
 }
 
-.logo
+#company-logo
 {
-	width: 160px;
+	height: 100%;
+	width: 100%;
+	background: url("../images/company_logo.png") no-repeat center;
+	background-size: contain;
 }
 
-.slogan-container
+#company-slogan
 {
-	position: relative;
-}
-
-.slogan-container .slogan
-{
-	position: absolute;
-	bottom: 10px;
-	left: 0;
+	width: 55%;
+	height: 100%;
 	color: #F0F0F0;
+	float: left;
+
+	display: flex;
+  align-items: center;
 }
 
-.login-icon, .search-icon
+#main-header-options
 {
-	margin-top: 20px;
-	height: 25px;
-	width: 25px;
-	display: block;
-}
-
-.login-icon-holder a,.search-icon-holder a
-{
-	text-decoration: none;
-}
-
-.login-icon-holder:hover img, .search-icon-holder:hover img
-{
-	height: 30px;
-	width: 30px;
-}
-
-.login-icon-holder:hover a, .search-icon-holder:hover a
-{
-	color: #D9D9D9;
+	width: 30%;
+	height: 100%;
+	float: right;
 }
 
 /*======================================================================================================================================
@@ -76,31 +72,30 @@ For Main Menu
 
 ======================================================================================================================================*/
 
-.main-menu
+#main-menu
 {	
 	margin: 0 auto;
 	background-color: #f3f3f3;
 }
 
-.main-menu ul
+#main-menu ul
 {
 	overflow: hidden;
 	list-style: none;
 	margin: 0;
 	padding: 0;
-    vertical-align: top;
-	background-color: #f3f3f3;
+  vertical-align: top;
 	font-family: sans-serif;
 }
 
-.main-menu ul li
+#main-menu ul li
 {
 	float: left;
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
-.main-menu ul li a
+#main-menu ul li a
 {
 	display: block;
 	padding: 10px 40px;
@@ -110,13 +105,13 @@ For Main Menu
 	border-right:1px solid #e7e7e7;
 }
 
-.main-menu ul li a.active
+#main-menu ul li a.active
 {
 	color: #fff;
 	background-color: #0169B1;
 }
 
-.main-menu ul li:hover a:not(.active) 
+#main-menu ul li:hover a:not(.active) 
 {
     color: #fff;	
 	background-color: #00435B;
@@ -128,24 +123,10 @@ For Main Content
 
 ======================================================================================================================================*/
 
-.main-content
+#main-content
 {
 	height: 450px;
 	background-color: #030019
-}
-
-.main-section-image-container
-{
-	height: 400px;
-	overflow: hidden;	
-	text-align: center;
-}
-
-.main-section-image
-{
-	margin: 40px 0px;
-	height: 320px;
-	width: 900px;
 }
 
 
@@ -156,7 +137,7 @@ For Footer
 
 ======================================================================================================================================*/
 
-.main-footer
+#main-footer
 {
 	border-top: 1px solid gray;
 	margin: 0px;
@@ -164,35 +145,35 @@ For Footer
 	background-color: #EDEDEC;
 }
 
-.main-footer ul
+#main-footer ul
 {
 
 }
 
-.main-footer ul li
+#main-footer ul li
 {
 	list-style-type:none;
 	display:inline-block;
 }
 
-.footer-menu
+#footer-menu
 {
 	text-align:center;
 }
 
-.main-footer a
+#main-footer a
 {
 	text-decoration: none;
 	color: #003;
 	padding:10px 40px;
 }
 
-.main-footer a:hover
+#main-footer a:hover
 {
 	color: blue;
 }
 
-.copyright
+#copyright
 {
 	text-align:center;
 }
