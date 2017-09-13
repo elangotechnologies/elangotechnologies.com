@@ -1,4 +1,4 @@
-@charset "utf-8";
+c@charset "utf-8";
 /* CSS Document */
 
 *{
@@ -54,9 +54,8 @@ body
 	height: 100%;
 	color: #F0F0F0;
 	float: left;
-
 	display: flex;
-  align-items: center;
+    align-items: center;
 }
 
 #main-header-options
@@ -71,6 +70,9 @@ body
 For Main Menu
 
 ======================================================================================================================================*/
+#h3head{
+  color: blue;
+}
 
 #main-menu
 {	
@@ -90,7 +92,7 @@ For Main Menu
 
 #main-menu ul li
 {
-	float: left;
+  float: left;
   margin: 0;
   padding: 0;
 }
@@ -117,6 +119,11 @@ For Main Menu
 	background-color: #00435B;
 }
 
+#quality {
+  background-image: url('w3css.gif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 /*======================================================================================================================================
 
 For Main Content
@@ -136,46 +143,34 @@ For Main Content
 For Footer
 
 ======================================================================================================================================*/
-
-#main-footer
-{
-	border-top: 1px solid gray;
-	margin: 0px;
-	padding: 0px;
-	background-color: #EDEDEC;
+#footer {
+    border-top: 5px solid #CDB380;
+    background: #033649 none repeat scroll 0% 0%;
+    padding-top: 30px;
+    margin-top: 60px;
+    clear: both;
+    color: #AAA;
+    display: block;
+}
+#footer-wrapper {
+	float: right;
 }
 
-#main-footer ul
-{
-
+#footer .widgettitle {
+    margin: 0px;
+    padding: 0px 0px 15px;
+}
+#footer h2 {
+    color: #FFF;
+}
+#sub-floor {
+    color: #AAA;
+    background: #031634 none repeat scroll 0% 0%;
+    padding: 10px 0px;
 }
 
-#main-footer ul li
-{
-	list-style-type:none;
-	display:inline-block;
-}
-
-#footer-menu
-{
-	text-align:center;
-}
-
-#main-footer a
-{
-	text-decoration: none;
-	color: #003;
-	padding:10px 40px;
-}
-
-#main-footer a:hover
-{
-	color: blue;
-}
-
-#copyright
-{
-	text-align:center;
+.webdevelop{
+    background-color: grey;
 }
 
 
@@ -538,3 +533,14 @@ Screen Size Handling - for different devices - Desktop, Mobile, Tablet, etc.
 	.mob-w-99prcnt{width:99%;}
 	.mob-w-100prcnt{width:100%;}
 }
+
+
+/*========================================================================================================
+about
+========================================================================================================*/ 
+.about {
+   margin: 100px;
+   word-spacing: 5px;
+   padding: 5px;
+   text-align: justify;
+ }
